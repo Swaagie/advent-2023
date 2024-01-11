@@ -5,10 +5,10 @@ fn main() {
     let input = fs::read_to_string("input.txt").expect("Error reading input.txt");
 
     // find index of numbers in string
-    let mut locations: Vec<usize> = vec![];
     let column_width: i32 = (input.split('\n').next().unwrap().len() + 1) as i32;
 
     // Part 1
+    // let mut locations: Vec<usize> = vec![];
     // for (index, c) in input.chars().enumerate() {
     //     if c != '.' && !c.is_numeric() && c != '\n' {
     //         let mut location = vec![
